@@ -15,7 +15,7 @@ def main():
         st.write('You asked: ', message)
 
         chat_completion = client.chat.completions.create(
-            model="llama3-8b-8192",
+            model="llama-3.2-90b-text-preview",
             messages=[
                         {
                         "role": "user",
